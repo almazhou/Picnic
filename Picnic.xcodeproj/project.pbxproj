@@ -18,6 +18,15 @@
 		49E09857180F7D630083163D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49E09856180F7D630083163D /* Default-568h@2x.png */; };
 		49E0985A180F7D630083163D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49E09858180F7D630083163D /* MainStoryboard.storyboard */; };
 		49E0985D180F7D630083163D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E0985C180F7D630083163D /* ViewController.m */; };
+		49E0986B180F7DE40083163D /* bug.png in Resources */ = {isa = PBXBuildFile; fileRef = 49E09864180F7DE40083163D /* bug.png */; };
+		49E0986C180F7DE40083163D /* door_bottom.png in Resources */ = {isa = PBXBuildFile; fileRef = 49E09865180F7DE40083163D /* door_bottom.png */; };
+		49E0986D180F7DE40083163D /* door_top.png in Resources */ = {isa = PBXBuildFile; fileRef = 49E09866180F7DE40083163D /* door_top.png */; };
+		49E0986E180F7DE40083163D /* fabric_bottom.png in Resources */ = {isa = PBXBuildFile; fileRef = 49E09867180F7DE40083163D /* fabric_bottom.png */; };
+		49E0986F180F7DE40083163D /* fabric_top.png in Resources */ = {isa = PBXBuildFile; fileRef = 49E09868180F7DE40083163D /* fabric_top.png */; };
+		49E09870180F7DE40083163D /* plate_cheese.png in Resources */ = {isa = PBXBuildFile; fileRef = 49E09869180F7DE40083163D /* plate_cheese.png */; };
+		49E09871180F7DE40083163D /* squish.caf in Resources */ = {isa = PBXBuildFile; fileRef = 49E0986A180F7DE40083163D /* squish.caf */; };
+		49E09873181030FD0083163D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49E09872181030FD0083163D /* QuartzCore.framework */; };
+		49E098751810335C0083163D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49E098741810335C0083163D /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +46,15 @@
 		49E09859180F7D630083163D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		49E0985B180F7D630083163D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		49E0985C180F7D630083163D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		49E09864180F7DE40083163D /* bug.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bug.png; sourceTree = "<group>"; };
+		49E09865180F7DE40083163D /* door_bottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = door_bottom.png; sourceTree = "<group>"; };
+		49E09866180F7DE40083163D /* door_top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = door_top.png; sourceTree = "<group>"; };
+		49E09867180F7DE40083163D /* fabric_bottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fabric_bottom.png; sourceTree = "<group>"; };
+		49E09868180F7DE40083163D /* fabric_top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fabric_top.png; sourceTree = "<group>"; };
+		49E09869180F7DE40083163D /* plate_cheese.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plate_cheese.png; sourceTree = "<group>"; };
+		49E0986A180F7DE40083163D /* squish.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = squish.caf; sourceTree = "<group>"; };
+		49E09872181030FD0083163D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		49E098741810335C0083163D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +62,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49E098751810335C0083163D /* AudioToolbox.framework in Frameworks */,
+				49E09873181030FD0083163D /* QuartzCore.framework in Frameworks */,
 				49E09841180F7D630083163D /* UIKit.framework in Frameworks */,
 				49E09843180F7D630083163D /* Foundation.framework in Frameworks */,
 				49E09845180F7D630083163D /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +76,8 @@
 		49E09834180F7D630083163D = {
 			isa = PBXGroup;
 			children = (
+				49E098741810335C0083163D /* AudioToolbox.framework */,
+				49E09872181030FD0083163D /* QuartzCore.framework */,
 				49E09846180F7D630083163D /* Picnic */,
 				49E0983F180F7D630083163D /* Frameworks */,
 				49E0983E180F7D630083163D /* Products */,
@@ -96,6 +118,7 @@
 		49E09847180F7D630083163D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				49E09863180F7DE40083163D /* PicnicFiles */,
 				49E09848180F7D630083163D /* Picnic-Info.plist */,
 				49E09849180F7D630083163D /* InfoPlist.strings */,
 				49E0984C180F7D630083163D /* main.m */,
@@ -105,6 +128,20 @@
 				49E09856180F7D630083163D /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		49E09863180F7DE40083163D /* PicnicFiles */ = {
+			isa = PBXGroup;
+			children = (
+				49E09864180F7DE40083163D /* bug.png */,
+				49E09865180F7DE40083163D /* door_bottom.png */,
+				49E09866180F7DE40083163D /* door_top.png */,
+				49E09867180F7DE40083163D /* fabric_bottom.png */,
+				49E09868180F7DE40083163D /* fabric_top.png */,
+				49E09869180F7DE40083163D /* plate_cheese.png */,
+				49E0986A180F7DE40083163D /* squish.caf */,
+			);
+			path = PicnicFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +200,13 @@
 				49E09855180F7D630083163D /* Default@2x.png in Resources */,
 				49E09857180F7D630083163D /* Default-568h@2x.png in Resources */,
 				49E0985A180F7D630083163D /* MainStoryboard.storyboard in Resources */,
+				49E0986B180F7DE40083163D /* bug.png in Resources */,
+				49E0986C180F7DE40083163D /* door_bottom.png in Resources */,
+				49E0986D180F7DE40083163D /* door_top.png in Resources */,
+				49E0986E180F7DE40083163D /* fabric_bottom.png in Resources */,
+				49E0986F180F7DE40083163D /* fabric_top.png in Resources */,
+				49E09870180F7DE40083163D /* plate_cheese.png in Resources */,
+				49E09871180F7DE40083163D /* squish.caf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
