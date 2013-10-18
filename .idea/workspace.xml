@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9cb3253a-9eda-463f-8474-0040aba6522d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Picnic/en.lproj/MainStoryboard.storyboard" afterPath="$PROJECT_DIR$/Picnic/en.lproj/MainStoryboard.storyboard" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Picnic/ViewController.m" afterPath="$PROJECT_DIR$/Picnic/ViewController.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Picnic.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/Picnic.xcodeproj/project.pbxproj" />
-    </list>
+    <list default="true" id="9cb3253a-9eda-463f-8474-0040aba6522d" name="Default" comment="" />
     <ignored path="Picnic.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="9cb3253a-9eda-463f-8474-0040aba6522d" time="1382022470474" ignored="false" />
@@ -123,6 +119,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="recentsLimit" value="5" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RunManager" selected="Application.Picnic">
     <configuration default="true" type="AppleRunConfiguration" factoryName="Application" PROJECT_NAME="Picnic" TARGET_NAME="Picnic" CONFIG_NAME="Debug" PASS_PARENT_ENVS="FALSE" RUN_TARGET_PROJECT_NAME="Picnic" RUN_TARGET_NAME="Picnic" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">

@@ -10,7 +10,10 @@
 #import <QuartzCore/QuartzCore.h>
 #import <AudioToolbox/AudioToolbox.h>
 
-@interface ViewController ()
+@interface ViewController (){
+    bool bugDead;
+}
+
 @property (weak, nonatomic) IBOutlet UIImageView *bug;
 @property (nonatomic,weak) IBOutlet UIImageView *basketTop;
 @property (nonatomic,weak) IBOutlet UIImageView *basketBottom;
@@ -18,10 +21,7 @@
 @property (nonatomic,weak) IBOutlet UIImageView *fabricBottom;
 @end
 
-@implementation ViewController{
-    bool bugDead;
-}
-
+@implementation ViewController
 - (void)viewDidLoad
 {
     [super viewDidLoad];
